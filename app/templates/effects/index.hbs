@@ -1,0 +1,6 @@
+{{page-title "Effects"}}
+<LinkTo @route="effects.new">Create new effect</LinkTo>
+{{#each @model as |effect|}}
+  {{effect.name}}<br>
+{{/each}}
+{{outlet}}
